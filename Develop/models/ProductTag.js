@@ -4,6 +4,8 @@ const sequelize = require('../config/connection');
 
 class ProductTag extends Model {}
 
+// Sequelize model for the ProductTag table
+
 ProductTag.init(
   {
     // define columns
